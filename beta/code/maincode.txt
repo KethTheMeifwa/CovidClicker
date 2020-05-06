@@ -317,8 +317,8 @@ Upgrades
 		
 	//golden carrot upgrades
 	
-	*goldenTouch
-		name:Golden touch
+	*DNABonus
+		name:DNABonus
 		desc:The delicate art of finding vegetables made of precious metals.<//><b>Effect:</b><.>1% chance of gaining 1 golden carrot per bunny click
 		icon:icons[2,5]
 		cost:1 goldenCarrot
