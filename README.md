@@ -1,4 +1,4 @@
-# CovidClicker
+# Covid Clicker
 
 The code for my Cookie Clicker remake, Covid Clicker.
 
