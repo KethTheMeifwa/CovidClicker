@@ -63,4 +63,4 @@ Achievements
 	*1click
 		name:And so it begins.
 		desc:Infect 1 person, and start covid-19.
-		req:1 bigButton:clicks
+		req:1 infectButton:clicks
