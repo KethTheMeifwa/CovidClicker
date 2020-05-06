@@ -41,13 +41,13 @@ Resources
 		hidden when 0
 		
 Buildings
-	*Bat
+	*Bat|Bats
 		name:Bats
 		desc:Spread Covid-19 through Bats. Infect 0.1 person per second.
 		icon:http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/beta/assets/BatIconSmall.png
 		on tick:yield 0.1 infected
 		cost:15 infected
-	*MasklessShopper
+	*MasklessShopper|MasklessShoppers
 		name:Maskless Shopper
 		desc:This person doesn't wear a mask when shopping. Infect 1 person per second.
 		icon:http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/beta/assets/MasklessIconSmall.png
@@ -60,7 +60,7 @@ Upgrades
 		name:Maskless Shoppers
 		desc:People decide not to wear masks while shopping. Unlocks Purchasing of Maskless Shoppers.
 		icon:http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/beta/assets/MasklessIconSmall.png
-		cost:100 Infected, 10 bat
+		cost:100 Infected, 10 Bats
 		
 Achievements
 	*1click
