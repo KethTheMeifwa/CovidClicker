@@ -20,7 +20,7 @@ Buttons
 		desc:Spread Covid and Increase the number of Infected!
 		on click:anim icon wobble
 		on click:yield 1 infected
-		icon:https://github.com/KethTheMeifwa/CovidClicker/blob/master/beta/assets/CovidIconLarge.png
+		icon:http://github.com/KethTheMeifwa/CovidClicker/blob/master/beta/assets/CovidIconLarge.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -31,14 +31,14 @@ Resources
 	*infected
 		name:Infected
 		desc:This is how many people you have given Covid-19!
-		icon:https://github.com/KethTheMeifwa/CovidClicker/blob/master/beta/assets/InfectedIconSmall.png
+		icon:http://github.com/KethTheMeifwa/CovidClicker/blob/master/beta/assets/InfectedIconSmall.png
 		class:noBackground
 		show earned
 		
 	*DNAStrand|DNAStrands
 		name:DNA Strand|DNA Strands
 		desc:DNA Strands are extremely rare and can be used to unlock powerful upgrades.
-		icon:https://github.com/KethTheMeifwa/CovidClicker/blob/master/beta/assets/DNAIconSmall.png
+		icon:http://github.com/KethTheMeifwa/CovidClicker/blob/master/beta/assets/DNAIconSmall.png
 		class:noBackground
 		hidden when 0
 		
