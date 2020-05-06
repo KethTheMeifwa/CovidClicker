@@ -40,3 +40,21 @@ Resources
 		icon:http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/beta/assets/DNAIconSmall.png
 		hidden when 0
 		
+Buildings
+	*Bat
+		name:Bats
+		desc:Spread Covid-19 through Bats. Infect 0.1 person per second.
+		on tick:yield 0.1 infected
+		cost:15 infected
+	*MasklessShopper
+		name:Maskless Shopper
+		desc:This person doesn't wear a mask when shopping. Infect 1 person per second.
+		on tick:yield 1 infected
+		cost:100 infected
+		req:have MasklessUpgrade
+		
+Upgrades
+	*MasklessUpgrade
+		name:Maskless Shoppers
+		desc:People decide not to wear masks while shopping. Unlocks Purchasing of Maskless Shoppers.
+		cost:100 Infected
