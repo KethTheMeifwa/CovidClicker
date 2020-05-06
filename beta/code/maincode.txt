@@ -20,7 +20,7 @@ Buttons
 		desc:Spread Covid and Increase the number of Infected!
 		on click:anim icon wobble
 		on click:yield 1 infected
-		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
+		on click:if (have DNABonus and chance(1%)) yield 1 DNAStrand
 		icon:https://github.com/KethTheMeifwa/CovidClicker/blob/master/beta/assets/CovidIconLarge.png
 		no text
 		class:bigButton hasFlares
@@ -29,17 +29,17 @@ Buttons
 		tooltip class:red
 		
 Resources
-	*bunny|bunnies
-		name:Bunny|Bunnies
-		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
-		icon:icons[0,0]
+	*infected
+		name:Infected
+		desc:This is how many people you have given Covid-19!
+		icon:https://github.com/KethTheMeifwa/CovidClicker/blob/master/beta/assets/InfectedIconSmall.png
 		class:noBackground
 		show earned
 		
-	*goldenCarrot|goldenCarrots
-		name:Golden carrot|Golden carrots
-		desc:These shiny carrots are terribly rare, terribly precious and terribly delicious!
-		icon:icons[0,1]
+	*DNAStrand|DNAStrands
+		name:DNA Strand|DNA Strands
+		desc:DNA Strands are extremely rare and can be used to unlock powerful upgrades.
+		icon:https://github.com/KethTheMeifwa/CovidClicker/blob/master/beta/assets/DNAIconSmall.png
 		class:noBackground
 		hidden when 0
 		
@@ -55,14 +55,14 @@ Shinies
 			$boost=1
 			if (have clover) $boost=4
 			if (chance(25%))
-				//get at least 7, or between 1 and 3 minutes of our bunny production
-				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
-				toast The lucky bunny grants you<//><b>[$amount] bunnies</b>.
-				yield $amount bunnies
+				//get at least 7, or between 1 and 3 minutes of our infected production
+				$amount=max(7,random(infected:ps*60*1,infected:ps*60*3))*$boost
+				toast An outbreak infects<//><b>[$amount] people</b>.
+				yield $amount infected
 			else
 				$amount=1*$boost
-				toast The lucky bunny grants you<//><b>[$amount] golden carrot[s?$amount]</b>!
-				yield $amount goldenCarrot
+				toast A scientist was infected, he gave you<//><b>[$amount] DNA Strand[s?$amount]</b>!
+				yield $amount DNAStrand
 			end
 		end
 
