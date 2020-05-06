@@ -60,8 +60,7 @@ Upgrades
 		name:Maskless Shoppers
 		desc:People decide not to wear masks while shopping. Unlocks Purchasing of Maskless Shoppers.
 		icon:http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/beta/assets/MasklessIconSmall.png
-		cost:100 Infected
-		req:10 bat
+		cost:100 Infected, 10 bat
 		
 Achievements
 	*1click
