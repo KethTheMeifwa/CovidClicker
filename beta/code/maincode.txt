@@ -58,3 +58,9 @@ Upgrades
 		name:Maskless Shoppers
 		desc:People decide not to wear masks while shopping. Unlocks Purchasing of Maskless Shoppers.
 		cost:100 Infected
+		
+Achievements
+	*1click
+		name:And so it begins.
+		desc:Infect 1 person, and start covid-19.
+		req:1 bigButton:clicks
