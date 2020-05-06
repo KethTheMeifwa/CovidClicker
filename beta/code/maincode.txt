@@ -32,13 +32,11 @@ Resources
 		name:Infected
 		desc:This is how many people you have given Covid-19!
 		icon:http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/beta/assets/InfectedIconSmall.png
-		class:noBackground
 		show earned
 		
 	*DNAStrand|DNAStrands
 		name:DNA Strand|DNA Strands
 		desc:DNA Strands are extremely rare and can be used to unlock powerful upgrades.
 		icon:http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/beta/assets/DNAIconSmall.png
-		class:noBackground
 		hidden when 0
 		
